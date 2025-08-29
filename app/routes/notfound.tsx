@@ -1,8 +1,3 @@
-// Minimal loader for catch-all route
-export async function loader() {
-  return {};
-}
-
 // Basic 404 component
 export default function NotFound() {
   return (
