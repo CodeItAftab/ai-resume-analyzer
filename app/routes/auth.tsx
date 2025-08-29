@@ -48,7 +48,9 @@ const Auth = () => {
           )}
           {auth.isAuthenticated && auth.user && (
             <div className="flex flex-col items-center gap-0.5 sm:gap-1 text-center">
-              <p className="text-xs sm:text-base font-semibold text-gray-700">Signed in as:</p>
+              <p className="text-xs sm:text-base font-semibold text-gray-700">
+                Signed in as:
+              </p>
               <span className="bg-gray-50 px-2 sm:px-3 py-0.5 sm:py-1 rounded-full text-xs sm:text-sm font-mono break-words max-w-full border border-gray-200">
                 {auth.user.username || JSON.stringify(auth.user)}
               </span>
@@ -79,18 +81,6 @@ const Auth = () => {
                   aria-label="Log In"
                 >
                   <span>Log In</span>
-                </button>
-                <button
-                  className="auth-button w-full rounded-full bg-gray-100 text-gray-700 border border-gray-300 font-semibold shadow-sm hover:bg-gray-200 transition-colors duration-150"
-                  aria-label="Sign Up"
-                >
-                  <span>Sign Up</span>
-                </button>
-                <button
-                  className="auth-button w-full rounded-full bg-white text-blue-600 underline font-semibold shadow-none hover:bg-blue-50 transition-colors duration-150"
-                  aria-label="Forgot Password"
-                >
-                  <span>Forgot Password?</span>
                 </button>
               </>
             )}
