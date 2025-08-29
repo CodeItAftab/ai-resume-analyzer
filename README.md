@@ -38,12 +38,6 @@ A modern, privacy-focused web app to analyze, score, and improve your resume usi
 
 ---
 
-## 📖 Documentation
-
-For a detailed guide on using the AI Resume Analyzer, including API references and contribution guidelines, please refer to the [Documentation](https://github.com/CodeItAftab/ai-resume-analyzer/docs).
-
----
-
 ## 🖥️ Installation & Setup
 
 1. **Clone the repository:**
